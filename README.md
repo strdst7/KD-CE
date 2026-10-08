@@ -45,6 +45,10 @@ To run the TypeScript check:
 npx tsc --noEmit
 ```
 
+## Deploy to GitHub Pages
+
+The `design/open-studio` branch deploys to [GitHub Pages](https://strdst7.github.io/KD-CE/) through GitHub Actions. Pushes to this branch run the production build and publish `dist/`; the workflow can also be started manually from the Actions tab.
+
 ## Project structure
 
 ```text
