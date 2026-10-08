@@ -2,7 +2,10 @@
 
 <img width="2240" height="1260" alt="Screenshot_2026-10-08_at_9 12 24_PM" src="https://github.com/user-attachments/assets/8ed4c1b7-232f-4e6c-af42-6be3841bc6c5" />
 
-An interactive community platform and landing page designed for creators, developers, and builders to discover bounties, showcase work, participate in events, and engage with the KrackedDevs ecosystem.
+Design Preview : https://01a10fd5-3aa9-7cdb-b077-4418ea95fa89.arena.site/
+
+
+### An interactive community platform and landing page designed for creators, developers, and builders to discover bounties, showcase work, participate in events, and engage with the KrackedDevs ecosystem.
 
 ## ✨ Features
 
