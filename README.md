@@ -1,104 +1,72 @@
-# 🚀 KD-CE | KrackedDevs Community Experience
+# KD-CE · Open Studio
 
-<img width="2240" height="1260" alt="Screenshot_2026-10-08_at_9 12 24_PM" src="https://github.com/user-attachments/assets/8ed4c1b7-232f-4e6c-af42-6be3841bc6c5" />
+A community-page concept for KrackedDevs, reimagined as a welcoming creative studio for Malaysia’s builders. The **Open Studio** design explores a warmer, more human-first direction: editorial typography, paper-inspired colors, playful artwork, and clear ways into the community.
 
-Design Preview : https://01a10fd5-3aa9-7cdb-b077-4418ea95fa89.arena.site/
+> This is an exploratory concept, not a production redesign or a replacement for the live KrackedDevs site. It lives on the `design/open-studio` branch; `main` is unchanged.
 
+## Design direction
 
-### An interactive community platform and landing page designed for creators, developers, and builders to discover bounties, showcase work, participate in events, and engage with the KrackedDevs ecosystem.
+**Good things happen together.** The page is designed to feel like an open invitation to learn, make, and share—not a corporate product page. It deliberately avoids hacker, terminal, and cyberpunk visuals.
 
-## ✨ Features
+The palette pairs warm paper and forest green with tomato red, marigold, leaf green, and soft blue. Display headlines use a system serif; body copy uses system sans-serif fonts, so the page does not depend on remote font requests.
 
-### 🎨 Immersive Creative Experience
-- Bold editorial-inspired design system
-- Custom typography using Bricolage Grotesque, DM Sans and Instrument Serif
-- Animated UI powered by Motion
-- Interactive visual storytelling throughout the site
+## What’s included
 
-### 🏆 Bounty Discovery Platform
-- Browse available creative and development bounties
-- Filter opportunities by category
-- Save interesting bounty briefs
-- Detailed bounty information and rewards breakdown
-- Submission-focused workflows
+- Responsive landing page with mobile navigation
+- Community pathways for learning, guilds, projects, events, and bounties
+- Community-made project cards with **Everything**, **Experiments**, and **Useful tools** filters
+- Member highlights and links to the community directory
+- Partner and join calls to action
+- Small interactions: rotating encouragement note, scroll reveals, and hover details
+- Reduced-motion support, visible keyboard focus styles, and labelled navigation controls
+- Original hero illustration in `public/assets/kd-studio-illustration.png`
 
-### 🖌️ Interactive Playground
-- Drag-and-drop creative canvas
-- Shape creation and manipulation tools
-- Colour customisation controls
-- Experimental interactive experience for community engagement
+The page uses editorial examples and links to the corresponding public KrackedDevs destinations. It is a static concept; it does not fetch live community data.
 
-### 👥 Community Showcase
-- Featured community members
-- Member spotlight sections
-- Community testimonials and success stories
-- Visual community directory
+## Run locally
 
-### 🎪 Events & Gatherings
-- Upcoming event listings
-- RSVP and attendance interactions
-- Event details and schedules
-- Community meetup discovery
+Requirements: Node.js and npm.
 
-### ❓ FAQ & Knowledge Hub
-- Expandable FAQ experience
-- Community onboarding information
-- Programme and participation guidance
+```bash
+npm install
+npm run dev
+```
 
-### 📬 Community Join Experience
-- Interactive membership sign-up workflow
-- Registration and submission forms
-- Success confirmation flow
-- Contributor onboarding process
+Vite prints a local URL when the development server is ready. To build and preview the production bundle:
 
-### 📱 Fully Responsive Design
-- Mobile-first experience
-- Tablet and desktop optimisation
-- Touch-friendly interactions
-- Adaptive layouts across all screen sizes
+```bash
+npm run build
+npm run preview
+```
 
-### ♿ Accessibility Features
-- Skip navigation links
-- Keyboard navigation support
-- Focus management
-- Reduced motion preferences support
+To run the TypeScript check:
 
-### ⚡ Performance Optimised
-- Vite-powered build system
-- TypeScript architecture
-- Optimised static deployment
-- Fast load times and smooth interactions
+```bash
+npx tsc --noEmit
+```
 
-## 🛠️ Tech Stack
+## Project structure
 
-### Frontend
-- React 19
-- TypeScript
-- Vite 7
+```text
+.
+├── index.html                       # Vite document shell and page metadata
+├── public/
+│   └── assets/
+│       └── kd-studio-illustration.png
+└── src/
+    ├── App.tsx                      # Mounts the page and its interactions
+    ├── index.css                    # Design system, layout, and responsive styles
+    └── new-design/
+        ├── assets.d.ts              # TypeScript declaration for Vite raw imports
+        └── landing.html             # Landing-page markup
+```
 
-### Styling
-- Tailwind CSS 4
-- Custom Design System
-- CSS Variables
-- Responsive Layout System
+`src/new-design/landing.html` is imported as a Vite raw string; the React entry wires up the navigation, project filters, encouragement note, and scroll-reveal behavior.
 
-### UI & Animation
-- Motion
-- Lucide React
-- Custom Interaction Effects
-- Kinetic Typography Animations
+## Build output
 
-### Utilities
-- clsx
-- tailwind-merge
+`npm run build` creates the deployable static bundle in `dist/`. The Vite single-file plugin inlines the app’s JavaScript and CSS; the hero image remains a local asset under `assets/`.
 
-## 🎯 Core Sections
+## License
 
-- Hero Experience
-- Interactive Playground
-- Bounty Marketplace
-- Community Showcase
-- Events & Gatherings
-- Frequently Asked Questions
-- Community Registration
-- Creative Footer Experience
+See [`LICENSE`](./LICENSE) for the repository’s license terms.
