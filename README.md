@@ -1,104 +1,29 @@
-# 🚀 KD-CE | KrackedDevs Community Experience
+# KD-CE · Open Studio
 
-<img width="2240" height="1260" alt="Screenshot_2026-10-08_at_9 12 24_PM" src="https://github.com/user-attachments/assets/8ed4c1b7-232f-4e6c-af42-6be3841bc6c5" />
+A community-page concept for KrackedDevs, reimagined as a welcoming creative studio for Malaysia's builders. This design lives on the `design/open-studio` branch; the repository's `main` branch is unchanged.
 
-Design Preview : https://01a10fd5-3aa9-7cdb-b077-4418ea95fa89.arena.site/
+## Direction
 
+Warm, editorial, and human-first: paper-inspired colors, playful studio artwork, inviting copy, and small moments of interaction. The concept deliberately avoids hacker, terminal, and corporate-product visual tropes.
 
-### An interactive community platform and landing page designed for creators, developers, and builders to discover bounties, showcase work, participate in events, and engage with the KrackedDevs ecosystem.
+## Included
 
-## ✨ Features
+- A responsive landing page with community pathways, classes, bounties, member highlights, and project showcases
+- A generated hero illustration stored at `public/assets/kd-studio-illustration.png`
+- Interactive mobile navigation, project filters, a rotating encouragement note, and scroll reveals
+- Direct links to the corresponding KrackedDevs community destinations
 
-### 🎨 Immersive Creative Experience
-- Bold editorial-inspired design system
-- Custom typography using Bricolage Grotesque, DM Sans and Instrument Serif
-- Animated UI powered by Motion
-- Interactive visual storytelling throughout the site
+## Run locally
 
-### 🏆 Bounty Discovery Platform
-- Browse available creative and development bounties
-- Filter opportunities by category
-- Save interesting bounty briefs
-- Detailed bounty information and rewards breakdown
-- Submission-focused workflows
+```bash
+npm install
+npm run dev
+```
 
-### 🖌️ Interactive Playground
-- Drag-and-drop creative canvas
-- Shape creation and manipulation tools
-- Colour customisation controls
-- Experimental interactive experience for community engagement
+Create a production build with:
 
-### 👥 Community Showcase
-- Featured community members
-- Member spotlight sections
-- Community testimonials and success stories
-- Visual community directory
+```bash
+npm run build
+```
 
-### 🎪 Events & Gatherings
-- Upcoming event listings
-- RSVP and attendance interactions
-- Event details and schedules
-- Community meetup discovery
-
-### ❓ FAQ & Knowledge Hub
-- Expandable FAQ experience
-- Community onboarding information
-- Programme and participation guidance
-
-### 📬 Community Join Experience
-- Interactive membership sign-up workflow
-- Registration and submission forms
-- Success confirmation flow
-- Contributor onboarding process
-
-### 📱 Fully Responsive Design
-- Mobile-first experience
-- Tablet and desktop optimisation
-- Touch-friendly interactions
-- Adaptive layouts across all screen sizes
-
-### ♿ Accessibility Features
-- Skip navigation links
-- Keyboard navigation support
-- Focus management
-- Reduced motion preferences support
-
-### ⚡ Performance Optimised
-- Vite-powered build system
-- TypeScript architecture
-- Optimised static deployment
-- Fast load times and smooth interactions
-
-## 🛠️ Tech Stack
-
-### Frontend
-- React 19
-- TypeScript
-- Vite 7
-
-### Styling
-- Tailwind CSS 4
-- Custom Design System
-- CSS Variables
-- Responsive Layout System
-
-### UI & Animation
-- Motion
-- Lucide React
-- Custom Interaction Effects
-- Kinetic Typography Animations
-
-### Utilities
-- clsx
-- tailwind-merge
-
-## 🎯 Core Sections
-
-- Hero Experience
-- Interactive Playground
-- Bounty Marketplace
-- Community Showcase
-- Events & Gatherings
-- Frequently Asked Questions
-- Community Registration
-- Creative Footer Experience
+This is an exploratory design concept, not a production redesign or an official live-site replacement.
