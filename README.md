@@ -1,72 +1,74 @@
-# KD-CE · Open Studio
+<div align="center">
 
-A community-page concept for KrackedDevs, reimagined as a welcoming creative studio for Malaysia’s builders. The **Open Studio** design explores a warmer, more human-first direction: editorial typography, paper-inspired colors, playful artwork, and clear ways into the community.
+# 🚀 KD-CE
 
-> This is an exploratory concept, not a production redesign or a replacement for the live KrackedDevs site. It lives on the `design/open-studio` branch; `main` is unchanged.
+### KrackedDevs Community Experience
 
-## Design direction
+An immersive digital platform designed for creators, developers, designers, innovators, and builders to connect, collaborate, discover opportunities, and grow within the KrackedDevs ecosystem.
 
-**Good things happen together.** The page is designed to feel like an open invitation to learn, make, and share—not a corporate product page. It deliberately avoids hacker, terminal, and cyberpunk visuals.
+<br />
 
-The palette pairs warm paper and forest green with tomato red, marigold, leaf green, and soft blue. Display headlines use a system serif; body copy uses system sans-serif fonts, so the page does not depend on remote font requests.
+[![TypeScript](https://img.shields.io/badge/TypeScript-5%2B-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https:lang.org/)
+![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-4-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=ilwindcss.com/)
+![License: MIT](https://img.shields.io/badge/License-MIT-success?style=for-the-<br/)
 
-## What’s included
+### Building the Future of Creative & Developer Communities
 
-- Responsive landing page with mobile navigation
-- Community pathways for learning, guilds, projects, events, and bounties
-- Community-made project cards with **Everything**, **Experiments**, and **Useful tools** filters
-- Member highlights and links to the community directory
-- Partner and join calls to action
-- Small interactions: rotating encouragement note, scroll reveals, and hover details
-- Reduced-motion support, visible keyboard focus styles, and labelled navigation controls
-- Original hero illustration in `public/assets/kd-studio-illustration.png`
+**Discover • Build • Collaborate • Grow**
 
-The page uses editorial examples and links to the corresponding public KrackedDevs destinations. It is a static concept; it does not fetch live community data.
+<img width="4480" height="2520" alt="Screenshot_2026-10-08_at_9 12 24_PM" src="https://github.com/user-attachments/assets/afbe2e64-3d06-44eb-81a6-cdeaca56ecae" />
 
-## Run locally
 
-Requirements: Node.js and npm.
+[🌐 Live Preview](https://01a10fd5-3aa9-7cdb-b077-4418ea95fa89.arena.site/) • design1
 
-```bash
-npm install
-npm run dev
-```
 
-Vite prints a local URL when the development server is ready. To build and preview the production bundle:
+<img width="1856" height="1145" alt="Screenshot 2026-10-09 at 7 46 24 AM" src="https://github.com/user-attachments/assets/16267d2b-0861-4358-a59d-4adc54c26b52" />
 
-```bash
-npm run build
-npm run preview
-```
 
-To run the TypeScript check:
+https://strdst7.github.io/KD-CE/ design2
 
-```bash
-npx tsc --noEmit
-```
+</div>
 
-## Project structure
+---
+
+## ✨ Overview
+
+KD-CE (KrackedDevs Community Experience) is a modern community-centric digital platform built to empower developers, creators, students, designers, founders, and innovators.
+
+The experience combines opportunity discovery, community engagement, interactive storytelling, and creative expression into one cohesive ecosystem.
+
+Whether you're looking for bounties, showcasing work, attending events, or connecting with fellow builders, KD-CE provides a central hub for growth and collaboration.
+
+---
+
+## 🎯 Core Experience
 
 ```text
-.
-├── index.html                       # Vite document shell and page metadata
-├── public/
-│   └── assets/
-│       └── kd-studio-illustration.png
-└── src/
-    ├── App.tsx                      # Mounts the page and its interactions
-    ├── index.css                    # Design system, layout, and responsive styles
-    └── new-design/
-        ├── assets.d.ts              # TypeScript declaration for Vite raw imports
-        └── landing.html             # Landing-page markup
-```
-
-`src/new-design/landing.html` is imported as a Vite raw string; the React entry wires up the navigation, project filters, encouragement note, and scroll-reveal behavior.
-
-## Build output
-
-`npm run build` creates the deployable static bundle in `dist/`. The Vite single-file plugin inlines the app’s JavaScript and CSS; the hero image remains a local asset under `assets/`.
-
-## License
-
-See [`LICENSE`](./LICENSE) for the repository’s license terms.
+┌──────────────────────┐
+│      Hero Section    │
+└──────────┬───────────┘
+           │
+           ▼
+┌──────────────────────┐
+│ Interactive Canvas   │
+└──────────┬───────────┘
+           │
+           ▼
+┌──────────────────────┐
+│ Bounty Marketplace   │
+└──────────┬───────────┘
+           │
+           ▼
+┌──────────────────────┐
+│ Community Showcase   │
+└──────────┬───────────┘
+           │
+           ▼
+┌──────────────────────┐
+│ Events & Networking  │
+└──────────┬───────────┘
+           │
+           ▼
+┌──────────────────────┐
+│ Join KrackedDevs     │
+└──────────────────────┘
