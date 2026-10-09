@@ -35,6 +35,11 @@ https://strdst7.github.io/KD-CE/ . design2
 
 KD-CE (KrackedDevs Community Experience) is a modern community-centric digital platform built to empower developers, creators, students, designers, founders, and innovators.
 
+## Deploy to GitHub Pages
+
+The `design/open-studio` branch deploys to [GitHub Pages](https://strdst7.github.io/KD-CE/) through GitHub Actions. Pushes to this branch run the production build and publish `dist/`; the workflow can also be started manually from the Actions tab.
+
+## Project structure
 The experience combines opportunity discovery, community engagement, interactive storytelling, and creative expression into one cohesive ecosystem.
 
 Whether you're looking for bounties, showcasing work, attending events, or connecting with fellow builders, KD-CE provides a central hub for growth and collaboration.
